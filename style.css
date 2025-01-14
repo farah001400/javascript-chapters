@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 248, 249);
+}
+/*---------------------------------Reading field values(49)------------------------------*/
+.content{
+    width: 70%;
+    border: 5px dotted dodgerblue;
+    margin: auto;
+    text-align: center;
+    color: rgb(102, 95, 95);
+}
+.content h1{
+    margin: 20px 0px;
+}
+.content input{
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.button{
+    background-color: green;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(6, 164, 6);
+    color: black;
+}
