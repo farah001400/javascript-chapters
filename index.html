@@ -13,12 +13,36 @@
     <div class="content">
         <h1>READING FIELD VALUES</h1>
         <form onSubmit="checkFields('name','email')">
-            <label>Enter your name:</label>
+            <label>Enter your first name:</label>
             <input type="text" id="name"><br>
-            <label>Enter your name:</label>
+            <label>Enter your last name:</label>
             <input type="text" id="email"><br>
             <input type="submit" value="Submit" class="button">
         </form>
+    </div>
+    <!-- ---------------------------------Setting field values(50)------------------------------ -->
+    <div class="content">
+        <h1>SETTING FIELD VALUES</h1>
+        <h3>LIST OF ZIP CODES AND AREAS IN ISLAMABAD</h3>
+        <P>45200 -> Golra</P>
+            <P>44210 -> Islamabad F-7 Markaz</P>
+            <P>44320 -> Islamabad Federal Board</P>
+            <P>44310 -> Islamabad Allama Iqbal Open University</P>
+            <P>* -> Invalid zipcode</P>
+            <form>
+                <label>ZipCode:</label>
+                <input type="text" id="zipCode" onblur="setAreaName()"><br>
+                <label>Area:</label>
+                <input type="text" id="area">
+            </form>
+            <h3>CITY CODE</h3>
+            <form>
+                <label>Zip:</label>
+                <input type="text" id="zip" onblur="fillCity()"><br>
+                <label>City:</label>
+                <input type="text" id="city">
+
+            </form>
     </div>
 
 
