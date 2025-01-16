@@ -10,49 +10,71 @@
 //     }
 // }
 // OR //
-function checkFields(nameField, emailField) {
-    var nameVal = document.getElementById(nameField).value.trim();
-    var emailVal = document.getElementById(emailField).value.trim();
-    if (nameVal.length < 1 || emailVal.length < 1) {
-        alert('Please complete the form');
-    }
-    else {
-        alert(`Welcome ${nameVal} with your last name ${emailVal}`);
-    }
-}
+// function checkFields(nameField, emailField) {
+//     var nameVal = document.getElementById(nameField).value.trim();
+//     var emailVal = document.getElementById(emailField).value.trim();
+//     if (nameVal.length < 1 || emailVal.length < 1) {
+//         alert('Please complete the form');
+//     }
+//     else {
+//         alert(`Welcome ${nameVal} with your last name ${emailVal}`);
+//     }
+// }
 //---------------------------------Setting field values(50)------------------------------//
-function setAreaName() {
-    var zipCode = +document.getElementById('zipCode').value;
-    var area = document.getElementById('area');
-    if (zipCode === 45200) {
-        area.value = "Glora";
-    }
-    else if (zipCode === 44210) {
-        area.value = "Islamabad F-7 Markaz";
-    }
-    else if (zipCode === 44320) {
-        area.value = "Islamabad Federal Board";
-    }
-    else if (zipCode === 44310) {
-        area.value = "Islamabad Allama Iqbal Open University";
+// function setAreaName() {
+//     var zipCode = +document.getElementById('zipCode').value;
+//     var area = document.getElementById('area');
+//     if (zipCode === 45200) {
+//         area.value = "Glora";
+//     }
+//     else if (zipCode === 44210) {
+//         area.value = "Islamabad F-7 Markaz";
+//     }
+//     else if (zipCode === 44320) {
+//         area.value = "Islamabad Federal Board";
+//     }
+//     else if (zipCode === 44310) {
+//         area.value = "Islamabad Allama Iqbal Open University";
+//     }
+//     else {
+//         area.value = "Invalid Code";
+//         area.style.color = "red";
+//     }
+// }
+// function fillCity(){
+//     var cityName;
+//     var zipEntered = document.getElementById('zip').value;
+//     switch(zipEntered){
+//         case "60608" : cityName = "Chicago";
+//         break;
+//         case "68114" : cityName = "Omaha";
+//         break;
+//         case "53212" : cityName = "Milwaukee";
+//         break;
+//         default :  cityName = "Invalid Code";
+//     }
+//     document.getElementById('city').value = cityName;
+// }
+//---------------------------reading and setting paragraph text(51)-----------------------//
+function readParagraphText(){
+    var initialpara = document.getElementById('initial_para');
+    var outputpara = document.getElementById('output_para');
+    outputpara.textContent = 'Current paragraph text:' + '"' + initialpara.textContent+ '"'
+}
+function setParagraphText(){
+    var initialpara = document.getElementById('initial_para');
+    var newText = document.getElementById('newTextInput');
+    var outputpara = document.getElementById('output_para');
+    if (newText.value.trim() === '') {
+        outputpara.textContent = "Please enter some text to set!";
+        outputpara.style.color = "red";
     }
     else {
-        area.value = "Invalid Code";
-        area.style.color = "red";
+        initialpara.textContent = newText.value;
+        outputpara.textContent = "Paragraph text has been updated!";
+        outputpara.style.color = "green";
+        newText.value = "";
     }
 }
-function fillCity(){
-    var cityName;
-    var zipEntered = document.getElementById('zip').value;
-    switch(zipEntered){
-        case "60608" : cityName = "Chicago";
-        break;
-        case "68114" : cityName = "Omaha";
-        break;
-        case "53212" : cityName = "Milwaukee";
-        break;
-        default :  cityName = "Invalid Code";
-    }
-    document.getElementById('city').value = cityName;
-}
+
 
