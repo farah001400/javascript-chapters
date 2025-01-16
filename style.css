@@ -36,3 +36,15 @@ body{
     background-color: rgb(6, 164, 6);
     color: black;
 }
+/*-------------------------------------Reading and Setting paragraph text(51)---------------------------------*/
+.readPara, .setPara{
+    padding: 9px 25px;
+    margin: 0px 5px;
+    background-color: rgb(8, 99, 210);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+}
