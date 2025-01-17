@@ -82,6 +82,12 @@ function expandParagraph(){
     var less = document.getElementById('lessPara');
     less.innerHTML = more.innerHTML;
 }
+function placeAList(){
+    var listToPlace = "<ul><li>Slow loris</li><li>Fast loris</li><li>Just-right loris</li></ul>";
+    var seeList = document.getElementById('seeList');
+    seeList.innerHTML = listToPlace;
+    document.getElementById('list').style.display = 'none';
+}
 
 
 
