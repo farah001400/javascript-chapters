@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reading and setting paragraph text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ----------------------------reading and setting paragraph text(51)------------------------ -->
+    <div class="content">
+        <h1>51-READING AND SETTING PARAGRAPH TEXT</h1>
+        <p id="initial_para">This is the initial paragraph text. Change it using the input below!</p>
+        <div style="margin: 10px;">
+            <button class="readPara" onclick="readParagraphText()">Read Paragraph Text</button>
+            <input type="text" id="newTextInput">
+            <button class="setPara" onclick="setParagraphText()">Set Paragraph Text</button>
+        </div>
+        <p id="output_para"></p>
+        <!-- OR -->
+        <h2 style="margin-top: 30px;">ANOTHER FUNCTION OF THIS CHAPHER</h2>
+        <p id="morePara" style="display: none;">
+            Slow lorises are a group of several species of trepsirrhine primates which
+            make up the genus Nycticebus. They have a round head, narrow snout, large eyes, and a variety of
+            distinctive coloration patterns that are species - dependent. The hands and feet of slow lorises have several
+            adaptations that give them a pincer - like grip and enable them to grasp branches for long periods of time.
+            Slow lorises have a toxic bite, a rare trait among mammals. 
+        </p>
+        <p id="lessPara">
+            Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus. <a href="javaScript:void(0)"
+                onclick="expandParagraph()">Read more</a>
+        </p>
+        <div id="seeList" style="text-align: left;"></div>
+        <a href="javaScript:void(0)" onclick="placeAList()" id="list">See the list</a>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

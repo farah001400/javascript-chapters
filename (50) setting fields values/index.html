@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setting fields values</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ---------------------------------Setting field values(50)------------------------------ -->
+    <div class="content">
+        <h1>50-SETTING FIELD VALUES</h1>
+        <h3>LIST OF ZIP CODES AND AREAS IN ISLAMABAD</h3>
+        <P>45200 -> Golra</P>
+        <P>44210 -> Islamabad F-7 Markaz</P>
+        <P>44320 -> Islamabad Federal Board</P>
+        <P>44310 -> Islamabad Allama Iqbal Open University</P>
+        <P>* -> Invalid zipcode</P>
+        <form>
+            <label>ZipCode:</label>
+            <input type="number" id="zipCode" onblur="setAreaName()"><br>
+            <label>Area:</label>
+            <input type="text" id="area">
+        </form>
+        <h3>ANOTHER FUNCTION CITY CODE</h3>
+        <form>
+            <label>Zip:</label>
+            <input type="number" id="zip" onblur="fillCity()"><br>
+            <label>City:</label>
+            <input type="text" id="city">
+        </form>
+        <p>60608 -> Chicago</p>
+        <p>68114 -> Omaha</p>
+        <p>53212 -> Milwaukee</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
