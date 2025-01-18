@@ -19,8 +19,9 @@ body{
     color: rgb(96, 81, 81);
     font-weight: bold ;
 }
-.content h1{
+.content h2, h4{
     margin: 20px 0px;
+    font-weight: bold;
 }
 .content input{
     padding: 8px;
@@ -37,7 +38,7 @@ body{
     color: black;
 } */
 /*-------------------------------------Reading and Setting paragraph text(51)---------------------------------*/
-.content{
+/* .content{
     width: 70%;
     border: 5px groove dodgerblue;
     margin: auto;
@@ -47,8 +48,9 @@ body{
     color: rgb(96, 81, 81);
     font-weight: bold ;
 }
-.content h1{
+.content h2, h3{
     margin: 20px 0px;
+    font-weight: bold;
 }
 .readPara, .setPara{
     padding: 10px 25px;
@@ -65,7 +67,23 @@ body{
     padding: 8px;
     border-radius: 5px;
     font-weight: bold;
-}
+} */
 /*------------------------------------manipulating images and text(52)---------------------------------*/
+.content {
+    width: 50%;
+    border: rgb(27, 204, 27) groove 10px;
+    padding: 30px 15px;
+    margin: auto;
+ }
+.gallery img{
+   width: 200px;
+   height: 150px;
+}
+.text{
+   font-size: 20px;
+   padding: 10px;
+   border: 5px solid black;
+   display: inline-block;
+}
 
 
