@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+.content{
+    width: 70%;
+    border: 6px groove aqua;
+    text-align: center;
+    margin: 30px auto;
+    color: rgb(98, 95, 95);
+    background-image: linear-gradient(to right, rgb(185, 185, 252), rgb(215, 252, 252));
+    padding: 20px;
+}
+.vehicles{
+    width: 200px;
+    height: 150px;
+margin: 35px 15px;
+}
+.content p{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#selectedImage{
+    width: 400px;
+    margin: 20px;
+}

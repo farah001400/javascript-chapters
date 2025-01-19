@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>swapping images</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="content">
+        <h1>53- SWAPPING IMAGES</h1>
+        <h2>Images Swapping Gallery</h2>
+        <div>
+            <img onclick="swapImage('assets/bicycle.jpg')"  src="assets/bicycle.jpg" alt="" class="vehicles">
+            <img onclick="swapImage('assets/scooty.jpg')" src="assets/scooty.jpg" alt="" class="vehicles">
+            <img onclick="swapImage('assets/tricycle.jpg')" src="assets/tricycle.jpg" alt="" class="vehicles">
+        </div>
+        <p>Selected Image</p>
+        <img id="selectedImage" src="" alt="">
+    </div>
+
+
+
+    <script src="app.js"></script>
 </body>
+
 </html>
