@@ -14,7 +14,7 @@ body{
     width: 50%;
     border: rgb(27, 204, 27) groove 10px;
     padding: 30px 15px;
-    margin: auto;
+    margin: 20px auto;
  }
 .gallery img{
    width: 200px;
@@ -26,3 +26,16 @@ body{
    border: 5px solid black;
    display: inline-block;
 }
+/* ---------another functions----------*/
+.hidden{
+    display: none;
+}
+
+.Border{
+    border: 6px solid grey;
+}
+.Height{
+    height: 300px;
+}
+
+

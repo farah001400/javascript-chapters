@@ -38,3 +38,14 @@ function showImage() {
 image.style.display = "inline";
 outputPara.textContent = "image is now visible!"
 }
+//-----OR----//
+function makeInvisible(){
+    var image = document.getElementById('parrot');
+    image.className = "hidden";
+}
+//-----OR---//
+function makePerfect(){
+    var pigeon = document.getElementById('pigeon');
+    pigeon.className = "Border";
+    pigeon.className += " Height";
+}
