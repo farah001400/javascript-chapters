@@ -28,6 +28,9 @@ margin: 35px 15px;
     margin: 20px;
 }
 
-#before{
-    width: 250px;
+#bef{
+    width: 300px;
+}
+.content h2{
+    margin: 20px  0;
 }

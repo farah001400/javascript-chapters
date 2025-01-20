@@ -4,6 +4,7 @@ function swapImage(imageSrc){
 }
 
 function swapPic(){
-    var before = document.getElementById('before');
-    before.src = "assets/nature2.jpg";
+    var bef = document.getElementById('bef');
+    bef.src = "assets/nature2.jpg";
+    
 }
