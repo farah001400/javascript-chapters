@@ -13,7 +13,7 @@
         <h1>53- SWAPPING IMAGES</h1>
         <h2>IMAGES SWAPPING GALLERY</h2>
         <div>
-            <img onclick="swapImage('assets/bicycle.jpg')"  src="assets/bicycle.jpg" alt="" class="vehicles">
+            <img onclick="swapImage('assets/bicycle.jpg')" src="assets/bicycle.jpg" alt="" class="vehicles">
             <img onclick="swapImage('assets/scooty.jpg')" src="assets/scooty.jpg" alt="" class="vehicles">
             <img onclick="swapImage('assets/tricycle.jpg')" src="assets/tricycle.jpg" alt="" class="vehicles">
         </div>
@@ -24,11 +24,11 @@
         <h2>ANOTHER FUNCTION FOR THIS CHAPTER</h2>
         <img src="assets/nature1.jpg" id="bef" onMouseover="swapPic()" alt="natueImage">
         <!-- <img src="./assets/igloo.jpg" id="before" onmouseover="swapping(id,'./assets/sun.jpg')" alt="img" style="width: 300px;"> -->
-        <img src="assets/igloo.jpg" id="before" onMouseover="swapping('before','assets/sun.jpg')"  alt="img" style="width: 300px;">
-        <img src="assets/1.png" alt="">
+        <img src="assets/igloo.jpg" id="before" onMouseover="swapping('before','assets/sun.jpg')" alt="img"
+            style="width: 300px;">
+        <img src="assets/1.png" onmouseover="swapCurrentImg(this, 'assets/2.png')"
+            onmouseout="swapImg(this, 'assets/3.png')" alt="image" style="width: 300px; height: 210px;">
     </div>
-
-
 
     <script src="app.js"></script>
 </body>
