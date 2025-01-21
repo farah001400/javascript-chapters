@@ -9,7 +9,14 @@
 <body>
     <div class="content">
         <h1>54- SWAPPING IMAGES AND SETTING CLASSES</h1>
-        
+        <h2>Enhance Image Swapping Gallery</h2>
+        <div class="gallery" style="margin-bottom: 30px;">
+            <img src="assets/cap.jpg" onclick="swapImage('assets/cap.jpg', this)" class="shopping" alt="cap img">
+            <img src="assets/jacket.jpg" onclick="swapImage('assets/jacket.jpg', this)" class="shopping" alt="jacket img">
+            <img src="assets/shoes.jpg" onclick="swapImage('assets/shoes.jpg', this)" class="shopping" alt="shoes img">
+        </div>
+        <h2>Selected Image</h2>
+        <img id="mainImage" src="" alt="">
     </div>
 
     <script src="app.js"></script>

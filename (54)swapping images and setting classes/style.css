@@ -2,13 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .content{
     width: 70%;
-    border: 6px groove aqua;
+    border: 6px groove orangered;
     text-align: center;
     margin: 30px auto;
     color: rgb(98, 95, 95);
-    background-image: linear-gradient(to right, rgb(185, 185, 252), rgb(215, 252, 252));
+    background-image: linear-gradient(to left, rgb(252, 212, 137), rgb(255, 135, 135));
     padding: 20px;
+}
+.content h2{
+    margin-top: 20px;
+}
+.shopping{
+    width: 250px;
+    margin: 10px;
+}
+/* ----add class through javascript------ */
+.active{
+    border: 4px solid green;
 }
