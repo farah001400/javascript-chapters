@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    width: 70%;
+    border: 6px groove orangered;
+    text-align: center;
+    margin: 30px auto;
+    color: rgb(98, 95, 95);
+    background-image: linear-gradient(to top, rgb(252, 229, 186), rgb(250, 196, 196));
+    padding: 20px;
+}
