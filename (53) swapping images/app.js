@@ -29,6 +29,17 @@ function swapImg(element, imgSrc){
     element.src = imgSrc
 }
 
+//----OR-----//
+function changeImageBefore(){
+    var image = document.getElementById('image');
+    image.src = './assets/nature2.jpg';
+}
+
+function changeImageAfter(){
+    var image = document.getElementById('image');
+    image.src = './assets/nature1.jpg';
+}
+
 
 
 
