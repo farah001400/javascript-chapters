@@ -13,3 +13,25 @@
     background-image: linear-gradient(to top, rgb(252, 229, 186), rgb(250, 196, 196));
     padding: 20px;
 }
+.content h2{
+    margin: 10px 0px;
+}
+.content h3{
+    margin-top: 50px;
+    padding: 15px;
+    display: inline-block;
+}
+.content div{
+    margin: 20px 0;
+}
+.content button{
+    padding: 10px;
+    margin: 5px 1px;
+    border-radius: 5px;
+    background-color: rgb(210, 120, 120);
+    color: brown;
+}
+.content button:hover{
+    color: whitesmoke;
+    background-color: brown;
+}
