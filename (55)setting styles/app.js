@@ -44,4 +44,7 @@ main.style.backgroundColor = "pink";
 main.style.border = "3px red solid";
 main.style.padding = "30px";
 main.style.textAlign = 'center';
-main.style.margin = '15px auto'
+main.style.margin = '15px auto';
+
+element = document.querySelectorAll('.main');
+console.log(element)
