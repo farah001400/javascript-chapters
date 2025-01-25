@@ -17,12 +17,12 @@
     margin: 10px 0px;
 }
 .content h3{
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 15px;
     display: inline-block;
 }
 .content div{
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .content button{
     padding: 10px;
@@ -30,6 +30,7 @@
     border-radius: 5px;
     background-color: rgb(210, 120, 120);
     color: brown;
+    cursor: pointer;
 }
 .content button:hover{
     color: whitesmoke;
