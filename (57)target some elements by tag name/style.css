@@ -2,11 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 .main{
     width: 80%;
     padding: 10px;
     margin: 20px auto;
     text-align: center;
+}
+ul li{
+    list-style: none;
+    margin: 20px 0;
+    background-color: rgb(210, 207, 207);
+    padding: 15px;
+}
+.buttons button{
+    padding: 8px;
+    margin: 2px;
+    color: black;
+    background-color: rgb(54, 202, 54);   
+    border-radius: 5px;
+    font-weight: bold;
+}
+.buttons button:hover{
+    background-color: green;
+    color: white; 
+    cursor: pointer;  
+}
+
+/*---------------------got class by javascript-------------------------*/
+.highlight{
+    background-color: green;
+    color: antiquewhite;
 }

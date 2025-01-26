@@ -3,7 +3,7 @@ var paragraphs = container1.getElementsByTagName('p');
 container1.style.border = '5px aqua groove';
 container1.style.margin = '20px 0';
 for(var i=0; i<paragraphs.length; i++){
-    paragraphs[i].style.padding = '5px';
+    paragraphs[i].style.padding = '8px';
     paragraphs[i].style.fontFamily = 'algerian';
     paragraphs[i].style.fontSize = '1.3rem'
     paragraphs[1].style.color = 'blue';
@@ -21,4 +21,36 @@ for(var i=0; i<paragraph.length; i++){
     paragraph[1].style.color = 'grey'
     paragraph[2].style.color = 'red';
 }
+var main = document.getElementsByClassName('main')[0];
+var heading = main.getElementsByTagName('h1')[1];
+heading.innerHTML = '<em>' + 'This Heading is Changed by javascript'+ '</em>';
 //--------------------------------------------------------------------------------------------------------------------//
+
+var listItems = document.getElementsByTagName('li');
+
+//Highlight even items
+document.getElementById('highlightEven').onclick = function () {
+    for(var i = 0; i < listItems.length; i++){
+        if((i + 1) % 2 === 0){
+            listItems[i].classList.add('highlight');
+        }
+    }
+}
+
+//Highlight odd items
+document.getElementById('highlightOdd').onclick = function () {
+    for(var i = 0; i < listItems.length; i++){
+        if((i + 1) % 2  ==! 0){
+            listItems[i].classList.add('highlight')
+        }
+    }
+}
+
+//Reset all items
+document.getElementById('reset').onclick = function () {
+    for(var i = 0; i < listItems.length; i++){
+        listItems[i].classList.remove('highlight');
+    }
+}
+
+
