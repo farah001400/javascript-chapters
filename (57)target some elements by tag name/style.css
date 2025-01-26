@@ -5,9 +5,8 @@
     font-family: sans-serif;
 }
 .main{
-    width: 70%;
-    padding: 20px;
+    width: 80%;
+    padding: 10px;
     margin: 20px auto;
-    border: 2px solid;
     text-align: center;
 }
