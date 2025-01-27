@@ -54,3 +54,53 @@ document.getElementById('reset').onclick = function () {
 }
 
 
+//-------------------------------------------------------Practice-------------------------------------------------------//
+// var listItems = document.getElementsByTagName('li');
+// document.getElementById('highlightEven').onclick = function () {
+//     for(var i = 0; i < listItems.length; i++){
+//         if((i + 1) % 2 === 0){
+//             listItems[i].classList.add('highlight');
+//         }
+//     }
+// }
+
+// document.getElementById('highlightOdd').onclick = function () {
+//     for(var i = 0; i < listItems.length; i++){
+//         if((i + 1) % 2 ==! 0){
+//             listItems[i].classList.add('highlight');
+//         }
+//     }
+// }
+
+// document.getElementById('reset').onclick = function () {
+//     for(var i = 0; i < listItems.length; i++){
+//         listItems[i].classList.remove('highlight')
+//     }
+// }
+
+//-------------------------------------------------------Practice-------------------------------------------------------//
+// var listItems = document.getElementsByTagName('li');
+// var highlightEven = document.getElementById('highlightEven');
+// highlightEven.onclick = function () {
+//     for(var i = 0; i < listItems.length; i++){
+//         if((i + 1) % 2 === 0){
+//             listItems[i].classList.add('highlight')
+//         }
+//     }
+// }
+
+// var highlightOdd = document.getElementById('highlightOdd');
+// highlightOdd.onclick = function () {
+//     for(var i = 0;  i < listItems.length; i++){
+//         if((i + 1) % 2 ==! 0){
+//             listItems[i].classList.add('highlight');
+//         }
+//     }
+// }
+
+// var reset = document.getElementById('reset');
+// reset.onclick = function () {
+//     for(var i = 0; i < listItems.length; i++){
+//         listItems[i].classList.remove('highlight');
+//     }
+// }
