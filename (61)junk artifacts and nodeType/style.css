@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    border: 5px double lightseagreen;
+    background-color: rgb(227, 251, 251);
+    width: 60%;
+    padding: 30px;
+    margin: 10px auto;
+}
+.main h1{
+    text-align: center;
+}
+dl{
+    margin: 20px auto;
+}
+ul{
+    margin: 10px auto;
+    line-height: 1.4em;
+}
+u{
+    font-weight: bold;
+}
+dl>dt{
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+
+}
+.examples{
+    text-align: center;
+    line-height: 1.6em;
+}

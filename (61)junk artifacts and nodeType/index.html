@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>junk artifacts and node type</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <h1>61- THE DOM: Junk artifacts and nodeType</h1>
-        <h3>EXAMPLES:</h3>
-        <div id="container1">
-            <p>This is a paragraph.</p>
-            <!-- Thi is a comment -->
-             Text between elements <br>
-             <span>A span element.</span>
-        </div>
+        <dl>
+            <dt>Junk artifacts:</dt>
+            <dd>when working wtth the DOM, especially when iterating through child nodes, we may encounter nodes that
+                are not elements. These are often referred to as "junk artifacts".</dd>
+            <ul>
+                <li><u>Text Nodes:</u> These are created by spaces, line breaks, or text content within the HTML. </li>
+                <li><u>Comment Nodes:</u> Nodes created by HTML comments.</li>
+            </ul>
+        </dl>
+        <dl>
+            <dt>nodeType</dt>
+            <dd>The nodeType property returns the node type, as a number, of the specified node.</dd>
+            <ul>
+                <li>If the node is an element node, the nodeType property will return 1.</li>
+                <li>If the node is an attribute node, the nodeType property will return 2.</li>
+                <li>If the node is a text node, the nodeType property will return 3.</li>
+                <li>If the node is a comment node, the nodeType property will return 8.</li>
+            </ul>
+        </dl>
+        <div class="examples">
+            <h3>EXAMPLES:</h3>
+            <div id="container1">
+                <p>This is a paragraph.</p>
+                <!-- Thi is a comment -->
+                Text between elements <br>
+                <span>A span element.</span>
+            </div><hr>
 
-        <div id="container2">
-            <p>This is a paragraph.</p>
-            <!-- Thi is a comment -->
-             Text between elements <br>
-             <span>A span element.</span>
+            <div id="container2">
+                <p>This is a paragraph.</p>
+                <!-- Thi is a comment -->
+                Text between elements <br>
+                <span>A span element.</span>
+            </div>
         </div>
     </div>
-    
+
 
     <script src="app.js"></script>
 </body>
+
 </html>
