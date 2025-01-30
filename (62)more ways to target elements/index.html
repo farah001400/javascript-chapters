@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>more ways to target elements</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="content">
-        <!-- <h1>62- THE DOM: More ways to target elements.</h1>
+        <h1>62- THE DOM: More ways to target elements.</h1>
         <dl>
             <dt>firstChild:</dt>
             <dd>.firstChild returns the first child node.  An element node, a text node, or a comment node</dd>
@@ -19,7 +21,7 @@
             <dt>previousSibling:</dt>
             <dd>.previousSibling returns the previous sibling node. An element node, a text node, or a comment node.</dd>
         </dl>
-
+        
         <dl>
             <dt>firstElementChild:</dt>
             <dd>.firstElementChild returns the first child element (ignores text and comment nodes).</dd>
@@ -31,7 +33,7 @@
             <dd>.previousElementSibling returns the previous sibling element (ignores text and comments).
 
             </dd>
-        </dl> -->
+        </dl>
         <h3>EXAMPLES:</h3>
         <ul id="myList">
             <li>Item 1</li>
@@ -41,9 +43,21 @@
         <button onclick="highLightFirst()">Highlight First</button>
         <button onclick="highLightNext()">Highlight Next</button>
         <button onclick="highLightLast()">Highlight Last</button>
-        
+
+        <!-- ------------------------------------------------------------------------------------------------------------------------------>
+        <ul id="parent">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p style="display: none;" id="noItem"></p>
+        <button onclick="firstHighLight()">First Highlight</button>
+        <button onclick="nextHighLight()">Next Highlight</button>
+        <button onclick="lastHighLight()">Last Highlight</button>
+
     </div>
 
-    <script src="app.js"></script>    
+    <script src="app.js"></script>
 </body>
+
 </html>
