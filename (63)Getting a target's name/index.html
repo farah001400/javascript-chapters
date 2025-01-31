@@ -8,17 +8,18 @@
 </head>
 <body>
     <div class="main">
-        <h1>63- THE DOM: Getting a target's name</h1>
+        <h1>63- THE DOM: Getting a target's name.</h1>
         <h2>Interactive DOM Inspector</h2>
-        <p>Click on any element below to see its properties:</p>
-        <div>This is a header div.</div>
-        <p>This is a paragraph element.</p>
-        <span>This is a span element.</span>
+        <p style="margin-bottom: 20px;">Click on any element below to see its properties:</p>
+
+        <div id="header" class="clickable">This is a header div.</div>
+        <p id="paragraph" class="clickable">This is a paragraph element.</p>
+        <span id="spanText" class="clickable">This is a span element.</span>
 
         <div id="infoPanel">
-            <h2>Element Info:</h2>
-            <p>Node Name:</p>
-            <p>Node Value:</p>
+            <h3>Element Info:</h3>
+            <p id="nodeName">Node Name:</p>
+            <p id="nodeValue">Node Value:</p>
         </div>
     </div>
     

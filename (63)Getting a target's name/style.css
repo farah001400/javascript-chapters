@@ -10,11 +10,18 @@
     width: 70%;
     padding: 30px;
     margin: 20px auto;
+    line-height: 1.8rem;
 }
 .main h1{
     text-align: center;
+    margin-bottom: 25px;
 }
-
+#header, #paragraph, #spanText{
+    border: 2px solid;
+    padding: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+}
 
 #infoPanel{
     margin: 20px auto 0;
