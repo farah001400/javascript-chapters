@@ -8,8 +8,8 @@ body{
     background-color: #f0f0f0;
 }
 .main{
-    border: solid;
-    width: 70%;
+    border: 5px double rgb(161, 157, 157);
+    width: 60%;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -22,6 +22,7 @@ body{
 }
 img{
     max-width: 300px;
+    margin-bottom: 15px;
 }
 input, button{
     margin: 5px 0;
