@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+}
+.main{
+    border: solid;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    background-color: rgb(251, 244, 235);
+}
+.main h1, h2{
+    margin-bottom: 15pX;
+}
+img{
+    max-width: 300px;
+}
+input, button{
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+button{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+button:hover{
+    background-color: rgb(10, 10, 158);
+}
