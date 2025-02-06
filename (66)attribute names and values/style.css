@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: sans-serif;
     background-color: #f4f4f4;
     display: flex;
@@ -13,9 +14,15 @@ body{
     align-items: center;
     text-align: center;
 }
-.content{
+
+h2 {
+    margin-top: 25px;
+    color: #0056b3;
+}
+
+.content {
     width: 450px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,16 +32,19 @@ body{
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-img{
+
+.content img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-right: 15px;
 }
-.buttons{
+
+.buttons {
     margin-top: 10px;
 }
-.buttons button{
+
+.buttons button {
     margin: 5px;
     padding: 8px 15px;
     border-radius: 4px;
@@ -43,7 +53,41 @@ img{
     color: white;
     cursor: pointer;
 }
-.buttons button:hover{
+
+.buttons button:hover {
     background-color: #0056b3;
-    
+
 }
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+.profile-card{
+    width: 450px;
+    border: 1px solid rgb(186, 186, 186);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+.profile-card img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 25px;
+    }
+    .controls button{
+        margin: 5px;
+        padding: 8px 15px;
+        border-radius: 4px;
+        background-color: rgb(16, 172, 16);
+        border-color: green;
+        color: white;
+        cursor: pointer;        
+    }
+    .controls button:hover{
+        background-color: green;
+    }
