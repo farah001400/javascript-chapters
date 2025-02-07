@@ -34,18 +34,18 @@
 
     <div class="profile-card">
         <div class="left">
-            <h3>John Krasinski</h3>
-            <p>Age: 30</p>
-            <p>Profession: Doctor</p>
+            <h3 id="_name">John Krasinski</h3>
+            <p id="_age">Age: 30</p>
+            <p id="_profession">Profession: Doctor</p>
         </div>
         <div class="right">
-            <img src="assets/profile1.jpg" alt="">
+            <img id="profileImage" src="assets/profile1.jpg" alt="">
         </div>
     </div>
     <div class="controls">
-        <button>Profile 1</button>
-        <button>Profile 2</button>
-        <button>Profile 3</button>
+        <button onclick="changeProfile('assets/profile1.jpg', 'John Krasinski', 30, 'Actor')">Profile 1</button>
+        <button onclick="changeProfile('assets/profile2.jpg', 'Michael Jackson', 50, 'Singer')">Profile 2</button>
+        <button onclick="changeProfile('assets/profile3.jpg', 'Burak Deniz', 33, 'Actor/Model')">Profile 3</button>
     </div>
 
 

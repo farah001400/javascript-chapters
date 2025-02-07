@@ -10,3 +10,10 @@ function updateProfile(imgSrc, name, age, profession) {
     document.getElementById('age').textContent = 'Age: ' + rightSide.getAttribute('data-age');
     document.getElementById('profession').textContent = 'Profession: ' + rightSide.getAttribute('data-profession');
 }
+// ---------------------------------------------------------------------------------------------------------------------------//
+
+function changeProfile(_imgSrc, _name, _age, _profession){
+    var profileImage = document.getElementById('profileImage');
+    profileImage.setAttribute('src',_imgSrc)
+
+}
