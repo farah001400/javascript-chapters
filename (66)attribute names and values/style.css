@@ -40,9 +40,7 @@ h2 {
     margin-right: 15px;
 }
 
-.buttons {
-    margin-top: 10px;
-}
+
 
 .buttons button {
     margin: 5px;
@@ -56,8 +54,8 @@ h2 {
 
 .buttons button:hover {
     background-color: #0056b3;
-
 }
+
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
 .profile-card{
@@ -70,7 +68,7 @@ h2 {
     padding: 25px;
     box-shadow: 0 0 20px  rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top: 10px;
     text-align: center;
 }
 .left{
