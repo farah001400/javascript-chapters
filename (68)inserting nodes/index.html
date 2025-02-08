@@ -10,16 +10,16 @@
     <h1 style="text-align: center; margin-top: 10px;">THE DOM: Inserting Nodes</h1>
     <div class="container">
         <h2>Dynamic Nested List Builder</h2>
-        <ul>
+        <ul id="list">
             <!-- List items will be dynamically added here -->
         </ul>
         <input id="itemInput" type="text" placeholder="Enter item name">
         <div class="buttons">
-            <button>Add Main Item</button>
-            <button>Add Sub Item</button>
-            <button>Inser Above</button>
-            <button>Insert Below</button>
-            <button>Remove Item</button>
+            <button onclick="addMainItem()">Add Main Item</button>
+            <button onclick="addSubItem()">Add Sub Item</button>
+            <button onclick="inserAbove()">Inser Above</button>
+            <button onclick="insertBelow()">Insert Below</button>
+            <button onclick="removeItem()">Remove Item</button>
         </div>
     </div>
     
