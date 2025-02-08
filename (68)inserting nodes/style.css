@@ -9,7 +9,7 @@ body{
 }
 .container{
     max-width: 600px;
-    margin: auto;
+    margin: 25px auto;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -21,6 +21,7 @@ body{
 ul{
     list-style-type: none;
     padding-left: 20px;
+    margin: 10px 0;
 }
 ul ul{
     padding-left: 20px;
