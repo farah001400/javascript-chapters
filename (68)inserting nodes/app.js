@@ -17,3 +17,20 @@ function addMainItem() {
 }
 // ------------------------------------------------------------------------------------------------//
 
+// function addMainItem() {
+//     var inputText = document.getElementById('itemInput').value;
+//     if(inputText) {
+//         var li = createLi(inputText);
+//         document.getElementById('list').appendChild(li);
+//         document.getElementById('itemInput').value = "";
+//     }
+//     else{
+//         alert('Please first enter any item')
+//     }
+// }
+
+// function createLi(text){
+//     var li = document.createElement('li');
+//     li.textContent = text;
+//     return li;
+// }
