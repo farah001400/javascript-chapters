@@ -15,6 +15,27 @@ function addMainItem() {
         alert("Main item can't be null/empty!");
     }
 }
+
+
+
+
+var activeItem = null;
+document.getElementById('list').addEventListener('click', handleListClick);
+
+function handleListClick(e) {
+    if (e.target.tagName = 'li') {
+        // remove already selected item //
+        if (activeItem) {
+            activeItem.classList.remove('active');
+        }
+        activeItem = e.target;
+        activeItem.classList.add('active');
+    }
+}
+
+function addSubItem() {
+
+}
 // ------------------------------------------------------------------------------------------------//
 
 // function addMainItem() {
